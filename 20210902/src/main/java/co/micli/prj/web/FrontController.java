@@ -34,7 +34,7 @@ public class FrontController extends HttpServlet {
 		map.put("/home.do", new HomeCommand()); //홈
 		map.put("/tables.do", new TableCommand()); //테이블 보여주기
 		map.put("/charts.do", new Charts());  //차트보여주기
-		map.put("/loginForm.do", new LoginForm());  //로그인
+		map.put("/login.do", new LoginForm());  //로그인
 		
 	}
 
